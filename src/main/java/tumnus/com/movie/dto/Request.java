@@ -1,15 +1,12 @@
-package vo;
+package tumnus.com.movie.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-@AllArgsConstructor
-public class MovieOMDB {
+public class Request {
 
     @JsonProperty("Title")
     private String title;
